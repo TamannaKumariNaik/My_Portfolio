@@ -38,7 +38,8 @@ export const skills = {
     'Python',
     'Git',
     'GitHub',
-    'AI and API integration',
+    'MySQL',
+    'AI-Assisted Web Development',
     'Prompt design',
   ],
   creative: [

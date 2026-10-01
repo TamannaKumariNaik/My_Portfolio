@@ -23,10 +23,10 @@ function Skills() {
           <div className="skills-bento">
             <h4>Creative and Interpersonal Skills</h4>
             <MagicBento
-              cards={skills.creative.map((skill) => ({
+              cards={skills.creative.map((skill, index) => ({
                 title: skill,
                 description: '',
-                label: 'Strength',
+                label: ['Creative', 'Proficient In', 'Analytical', 'Communication', 'Teamwork'][index],
                 color: 'var(--panel)',
               }))}
               textAutoHide={false}
